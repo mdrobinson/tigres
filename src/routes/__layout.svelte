@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
+	import Header from '../components/header/Header.svelte';
+	import Footer from '../components/footer/Footer.svelte';
 	import '../app.scss';
 </script>
 
@@ -7,29 +8,11 @@
 <main>
 	<slot />
 </main>
+<Footer />
 
-<!-- <footer>
-	<p>Footer Goes Here</p>
-</footer> -->
 <style>
 	main {
 		margin: 1rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		flex-grow: 1;
 	}
-	/*
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	} */
 </style>

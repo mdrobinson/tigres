@@ -6,15 +6,16 @@
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
-		"prepare": "svelte-kit sync",
 		"test": "playwright test",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --write --plugin-search-dir=. .",
+		"prepare": "svelte-kit sync"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.22.2",
+		"@smui/menu": "^6.0.0-beta.16",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.5.1",
@@ -25,8 +26,11 @@
 		"eslint-plugin-svelte3": "^4.0.0",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
+		"smui-theme": "^6.0.0-beta.16",
+		"stream": "0.0.2",
 		"svelte": "^3.46.0",
 		"svelte-check": "^2.7.1",
+		"svelte-feather-icons": "^4.0.0",
 		"svelte-preprocess": "^4.10.6",
 		"tslib": "^2.3.1",
 		"typescript": "^4.7.2"
@@ -36,6 +40,7 @@
 		"@fontsource/fira-mono": "^4.5.0",
 		"@sanity/client": "^3.3.2",
 		"cookie": "^0.4.1",
+		"feather-icons": "^4.29.0",
 		"sass": "^1.53.0"
 	}
 }

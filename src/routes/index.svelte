@@ -4,7 +4,6 @@
 
 <script>
 	let games = $$props.games;
-	console.log(games);
 </script>
 
 <svelte:head>
