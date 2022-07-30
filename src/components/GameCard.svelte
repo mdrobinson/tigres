@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Game } from '../types/game';
 	export let gameData: Game;
+	console.log(gameData);
 
 	const formattedDate = new Date(gameData.date).toLocaleDateString('en-us', {
 		month: 'long',
@@ -16,7 +17,7 @@
 	<div class="game-information">
 		<p><strong>Vs:</strong> {gameData.opponent}</p>
 		<p>
-			<strong>Location:</strong> <a target="_blank" href={gameData.mapsurl}>{gameData.location}</a>
+			<strong>Location:</strong> <a target="_blank" href={gameData.mapsUrl}>{gameData.location}</a>
 		</p>
 		<p><strong>Time:</strong> {gameData.time}</p>
 	</div>
