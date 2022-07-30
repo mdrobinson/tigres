@@ -7,8 +7,6 @@
 		day: '2-digit',
 		year: 'numeric'
 	});
-	const gameMonth: string = new Date(gameData.date).toLocaleString('default', { month: 'short' });
-	const gameDay: number = new Date(gameData.date).getDate();
 </script>
 
 <section class="game-card">

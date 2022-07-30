@@ -44,6 +44,9 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
+		width: 100%;
+		max-width: var(--column-width);
+		margin: var(--column-margin-top) auto 0 auto;
 
 		h1 {
 			width: 100%;
@@ -55,12 +58,14 @@
 
 		img#heroImage {
 			width: 100%;
+			margin: 2rem 0;
+			border-radius: 3rem;
+			box-shadow: 2px 1px 5px #333;
 		}
 	}
 
 	@media (min-width: 1025px) {
 		img#heroImage {
-			max-width: 50%;
 			text-align: center;
 		}
 	}
