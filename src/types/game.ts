@@ -3,7 +3,7 @@ export type Game = {
 	date: Date;
 	location: string;
 	time: string;
-	mapsurl: string;
+	mapsUrl: string;
 	tigresRuns: number;
 	opponentRuns: number;
 };

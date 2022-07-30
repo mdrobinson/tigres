@@ -17,6 +17,8 @@
 	footer {
 		display: flex;
 		justify-content: right;
+		position: sticky;
+		bottom: 0px;
 	}
 
 	div.contact-icons {
