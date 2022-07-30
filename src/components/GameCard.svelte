@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { Game } from '../types/game';
 	export let gameData: Game;
-	console.log(gameData);
 
 	const formattedDate = new Date(gameData.date).toLocaleDateString('en-us', {
 		month: 'long',
