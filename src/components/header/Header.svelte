@@ -9,15 +9,12 @@
 			<li class:active={$page.url.pathname === '/schedule'}>
 				<a sveltekit:prefetch href="/schedule">Schedule</a>
 			</li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">Team</a>
-			</li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">Sponsors</a>
-			</li>
 			<!-- <li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">Contact</a>
+				<a sveltekit:prefetch href="/about">Team</a>
 			</li> -->
+			<li class:active={$page.url.pathname === '/sponsors'}>
+				<a sveltekit:prefetch href="/sponsors">Sponsors</a>
+			</li>
 		</ul>
 	</nav>
 </header>
