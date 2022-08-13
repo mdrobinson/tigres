@@ -1,15 +1,7 @@
 <script>
-	import { InstagramIcon, MailIcon } from 'svelte-feather-icons';
 </script>
 
-<footer>
-	<a href="https://www.instagram.com/tigresdesanantonio/" target="_blank">
-		<InstagramIcon size="24" />
-	</a>
-	<a href="mailto:tigresdesanantonio@gmail.com">
-		<MailIcon size="24" />
-	</a>
-</footer>
+<footer />
 
 <style lang="scss">
 	footer {

@@ -2,7 +2,6 @@
 	import SponsorCard from '../components/SponsorCard.svelte';
 
 	let sponsors = $$props.sponsors;
-	console.log(sponsors);
 </script>
 
 <svelte:head>

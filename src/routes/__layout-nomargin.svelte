@@ -11,10 +11,7 @@
 </main>
 
 <style>
-	main {
-		flex-grow: 1;
-	}
 	#mainContent {
-		margin: 1rem;
+		max-width: 100vw;
 	}
 </style>

@@ -1,14 +1,14 @@
 @import '@fontsource/fira-mono';
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-$tigresBlue: #1f415d;
-$tigresOrange: #e99530;
+$tigresBlue: #1e4260;
+$tigresOrange: #f69322;
 $tigresGrey: #b3b3b3;
 $white: #ffffff;
 $linkColor: #0000ee;
 
 :root {
-	font-family: 'Roboto', Times New Roman, serif;
+	font-family: 'Open Sans', Times New Roman, serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
 
@@ -32,12 +32,16 @@ div#app {
 h1,
 h2,
 h3 {
-	font-family: 'League Gothic', Arial;
+	font-family: 'Open Sans', Arial;
 }
 
 h1 {
 	font-weight: 400;
 	color: $white;
+}
+
+p {
+	font-size: 1.5rem;
 }
 
 a {
